@@ -21,6 +21,7 @@ namespace DPA_Shopping.API.Controllers
         {
             var result = await _favoriteRepository.GetAll();
             return Ok(result);
+
         }
 
         [HttpGet("{id}")]
